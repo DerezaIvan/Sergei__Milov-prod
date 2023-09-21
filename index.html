@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Песни, стихи, музыка. Сергей Милов автор исполнитель. Даром получил - даром отдаю, как учил Иисус Христос."
+    />
+    <meta
+      name="keywords"
+      content="Сергей Милов, авторская песня, автор, исполнитель, музыкант, Санкт‑Петербург, Россия, музыка, песни, стихи"
+    />
+    <meta name="author" content="Сергей Милов" />
+    <meta name="geo.region" content="RU-SPB" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/adaptive.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/icon/guitar.svg"
+      type="image/x-icon"
+    />
+    <title>Сергей Милов | Авторские песни</title>
+  </head>
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="header__logo">
+        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m502.63 39-29.63-29.63a32 32 0 0 0 -45.26 0l-46.28 46.33a35.14 35.14 0 0 0 -8.53 13.79l-12.16 36.51-76.26 76.26c-12.16-8.76-25.5-15.74-40.1-19.14-33.45-7.78-67-.88-89.88 22a82.45 82.45 0 0 0 -20.24 33.47c-6 18.56-23.21 32.69-42.15 34.46-23.7 2.27-45.73 11.45-62.61 28.44-45.64 45.51-37.43 127.51 18.05 182.96s137.42 63.55 182.98 18.07c17-16.88 26.16-38.9 28.45-62.71 1.76-18.85 15.89-36.13 34.43-42.14a82.6 82.6 0 0 0 33.48-20.25c22.87-22.88 29.74-56.36 22-89.75-3.39-14.64-10.37-28-19.16-40.2l76.24-76.24 36.48-12.16a35.14 35.14 0 0 0 13.79-8.53l46.33-46.32a32 32 0 0 0 .03-45.22zm-294.63 313a48 48 0 1 1 48-48 48 48 0 0 1 -48 48z"
+          />
+        </svg>
+        <p class="header__logo-text">Сергей Милов | Авторские песни</p>
+      </a>
+      <nav class="header__menu" id="header__menu">
+        <a href="#author__audioplayer" class="header__menu-link">Музыка</a>
+        <a href="#author__videoplayer" class="header__menu-link">Видео</a>
+        <a href="#footer" class="header__menu-link">Контакты</a>
+      </nav>
+      <div class="burger-menu" id="burger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </header>
+  <body>
+    <section class="main">
+      <div class="main-container">
+        <h1 class="main-container__title">
+          Стихи и мотивы приходят свыше… а я даром получил, даром и отдаю как
+          учил Христос! Приятного вам прослушивания и за всё слава Богу!
+        </h1>
+        <img src="images/Главная.webp" alt="Сергей играет на гитаре" />
+      </div>
+    </section>
+    <section class="author">
+      <div class="author-container">
+        <h2 class="author__title">Сергей Милов</h2>
+        <p class="author__subtitle">Авторская песня</p>
+
+        <div class="wrapper" id="author__audioplayer">
+          <div class="player">
+            <div class="song">Название песни</div>
+            <audio
+              class="audio"
+              src="./audio/Аннушка.mp3"
+              preload="none"
+            ></audio>
+
+            <div class="progress__container">
+              <div class="progress"></div>
+              <div class="progress-time">
+                <div class="progress-time current-time">00:00</div>
+                <div class="progress-time duration">00:00</div>
+              </div>
+            </div>
+            <div class="buttons">
+              <div class="btn prev">
+                <svg
+                  fill="#000000"
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 32 32"
+                  enable-background="new 0 0 32 32"
+                  version="1.1"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M27.136,3.736C27.508,3.332,28,3.45,28,4v24c0,0.55-0.492,0.668-0.864,0.264L16.449,16.736     c-0.372-0.405-0.325-1.068,0.047-1.473L27.136,3.736z"
+                      />
+                      <path
+                        d="M27.602,29.504c-0.441,0-0.868-0.2-1.202-0.563L15.715,17.416c-0.718-0.781-0.697-2.022,0.044-2.829L26.401,3.058     c0.333-0.362,0.76-0.562,1.201-0.562C28.399,2.496,29,3.143,29,4v24C29,28.857,28.399,29.504,27.602,29.504z M27,5.358     l-9.77,10.584c-0.036,0.04-0.044,0.109-0.036,0.132L27,26.646V5.358z"
+                      />
+                    </g>
+                    <g>
+                      <path
+                        d="M14.297,3.736C14.669,3.332,15,3.45,15,4v24c0,0.55-0.331,0.668-0.703,0.264L3.69,16.736     c-0.372-0.405-0.365-1.068,0.007-1.473L14.297,3.736z"
+                      />
+                      <path
+                        d="M14.706,29.504c-0.286,0-0.717-0.098-1.146-0.563L2.954,17.414c-0.727-0.791-0.724-2.032,0.006-2.827l10.6-11.527     c0.428-0.466,0.859-0.563,1.146-0.563C15.329,2.496,16,2.967,16,4v24C16,29.033,15.329,29.504,14.706,29.504z M14,5.538     L4.433,15.94c-0.025,0.027-0.023,0.102-0.006,0.119L14,26.463V5.538z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <div class="btn play">
+                <svg
+                  class="play"
+                  fill="#000000"
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 32 32"
+                  enable-background="new 0 0 32 32"
+                  version="1.1"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M4.993,2.496C4.516,2.223,4,2.45,4,3v26c0,0.55,0.516,0.777,0.993,0.504l22.826-13.008    c0.478-0.273,0.446-0.719-0.031-0.992L4.993,2.496z"
+                    />
+                    <path
+                      d="M4.585,30.62L4.585,30.62C3.681,30.62,3,29.923,3,29V3c0-0.923,0.681-1.62,1.585-1.62c0.309,0,0.621,0.085,0.904,0.248    l22.794,13.007c0.559,0.319,0.878,0.823,0.878,1.382c0,0.548-0.309,1.039-0.847,1.347L5.488,30.373    C5.206,30.534,4.894,30.62,4.585,30.62z M5,3.651v24.698l21.655-12.34L5,3.651z"
+                    />
+                  </g>
+                </svg>
+                <svg
+                  class="pause"
+                  fill="#000000"
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 32 32"
+                  enable-background="new 0 0 32 32"
+                  version="1.1"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M6,4C5.45,4,5,4.45,5,5v22c0,0.55,0.45,1,1,1h3c0.55,0,1-0.45,1-1V5c0-0.55-0.45-1-1-1H6z"
+                    />
+                    <path
+                      d="M9,29H6c-1.103,0-2-0.897-2-2V5c0-1.103,0.897-2,2-2h3c1.103,0,2,0.897,2,2v22C11,28.103,10.103,29,9,29z M9,27v1V27L9,27    L9,27z M6,5v22h2.997L9,5H6z"
+                    />
+                  </g>
+                  <g>
+                    <path
+                      d="M23,4c-0.55,0-1,0.45-1,1v22c0,0.55,0.45,1,1,1h3c0.55,0,1-0.45,1-1V5c0-0.55-0.45-1-1-1H23z"
+                    />
+                    <path
+                      d="M26,29h-3c-1.103,0-2-0.897-2-2V5c0-1.103,0.897-2,2-2h3c1.103,0,2,0.897,2,2v22C28,28.103,27.103,29,26,29z M26,27v1V27    L26,27L26,27z M23,5v22h2.997L26,5H23z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="btn next">
+                <svg
+                  fill="#000000"
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 32 32"
+                  enable-background="new 0 0 32 32"
+                  version="1.1"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M4.561,3.728C4.184,3.328,4,3.45,4,4v24c0,0.55,0.184,0.672,0.561,0.272l10.816-11.544     c0.377-0.4,0.408-1.056,0.031-1.456L4.561,3.728z"
+                      />
+                      <path
+                        d="M4.202,29.507L4.202,29.507C4.079,29.507,3,29.465,3,28V4c0-1.465,1.079-1.507,1.202-1.507     c0.568,0,0.958,0.414,1.087,0.55l10.848,11.545c0.725,0.77,0.711,2.038-0.031,2.826L5.29,28.956     C5.16,29.094,4.771,29.507,4.202,29.507z M5.004,5.66L5,26.337l9.674-10.389L5.004,5.66z"
+                      />
+                    </g>
+                    <g>
+                      <path
+                        d="M17.561,3.728C17.184,3.328,17,3.45,17,4v24c0,0.55,0.184,0.672,0.561,0.272l10.816-11.544     c0.377-0.4,0.408-1.056,0.031-1.456L17.561,3.728z"
+                      />
+                      <path
+                        d="M17.202,29.507L17.202,29.507C17.079,29.507,16,29.465,16,28V4c0-1.465,1.079-1.507,1.202-1.507     c0.568,0,0.958,0.414,1.087,0.55l10.848,11.545c0.725,0.77,0.711,2.038-0.031,2.826L18.29,28.956     C18.16,29.094,17.771,29.507,17.202,29.507z M18.004,5.66L18,26.337l9.674-10.389L18.004,5.66z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <ul class="track-list">
+            <!-- Здесь будут отображаться треки -->
+          </ul>
+          <!-- Элемент для отображения текущего времени -->
+          <button id="load-list" class="all-track">
+            Показать все треки
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="48"
+                d="M112 184l144 144 144-144"
+              />
+            </svg>
+          </button>
+          <button id="reload-list" class="all-track reload">
+            Скрыть все треки
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="ionicon"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="48"
+                d="M112 184l144 144 144-144"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <p id="author__audioplayer" class="author__subtitle">Галерея</p>
+        <div class="author__slider">
+          <div><img src="images/1.webp" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/2.webp" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/5.webp" alt="Сергей играет на гитаре" /></div>
+          <div>
+            <img src="images/7.webp" alt="Сергей в реабелитационном центре" />
+          </div>
+          <div><img src="images/6.webp" alt="Сергей в парке" /></div>
+          <div><img src="images/4.webp" alt="Девушка с розой" /></div>
+          <div><img src="images/3.webp" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/8.jpg" alt="Текст на бумажке" /></div>
+          <div><img src="images/12.jpg" alt="Текст на бумажке" /></div>
+          <div><img src="images/9.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/10.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/11.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/13.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/14.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/15.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/16.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/17.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/18.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/19.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/20.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/21.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/22.jpg" alt="Сергей играет на гитаре" /></div>
+          <div><img src="images/23.jpg" alt="Сергей играет на гитаре" /></div>
+          <div>
+            <img
+              src="images/24.jpg"
+              alt="Сергей играет на гитаре"
+              style="object-fit: contain"
+            />
+          </div>
+        </div>
+        <p id="author__videoplayer" class="author__subtitle">Видеогалерея</p>
+        <div class="author__slider author__video">
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/jMuDwSvIo-o?si=Y2VWEaK7dc7f1fKa"
+            loading="lazy"
+            title="Сергей Милов"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/bIYZmJkT3qQ?si=CNkss-HWygYaVJx_"
+            loading="lazy"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/k1BN8BO3dzE?si=-0p44ILbAbPS59EF"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+          ></iframe>
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/2j6_C3npL6c?si=KB_ipTvZPVTSdEh5"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+          ></iframe>
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/MOOHvI-gzGc?si=2x71wuupe_bYWdyA"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+          ></iframe>
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/goR9ELjw1IQ?si=em1rRd7R_k9NB9_Z"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+          ></iframe>
+          <iframe
+            class="video__iframe"
+            src="https://www.youtube.com/embed/2gmbKuSjK44?si=tdLe_H0r1tTeXxSc"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <p id="footer" class="author__subtitle">Контакты</p>
+      <div class="footer-container">
+        <ul class="footer-container__socials-list">
+          <li>
+            <a
+              href="https://stihi.ru/avtor/zavet4"
+              class="footer-container__socials-item stihi"
+              target="_blank"
+            >
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                height="46px"
+                viewBox="0 0 152 46"
+              >
+                <rect x="106" fill="#AAAAAA" width="46" height="46" />
+                <rect fill="#FF6000" width="104" height="46" />
+                <rect x="102.06" y="27" fill="#FFFFFF" width="6" height="6" />
+                <g>
+                  <g>
+                    <path
+                      fill="#FFFFFF"
+                      d="M13.102,17.21c0.305-0.564,0.652-1.021,1.042-1.37c0.39-0.349,0.784-0.622,1.184-0.816
+                 c0.4-0.195,0.789-0.327,1.169-0.397c0.38-0.07,0.71-0.105,0.99-0.105c0.66,0,1.234,0.065,1.724,0.195
+                 c0.49,0.13,0.909,0.299,1.259,0.509c0.35,0.21,0.642,0.449,0.877,0.719c0.235,0.27,0.43,0.544,0.585,0.823
+                 c0.155,0.28,0.277,0.557,0.367,0.831c0.09,0.275,0.165,0.517,0.225,0.726h4.603c-0.04-0.479-0.138-1.006-0.292-1.58
+                 c-0.155-0.574-0.39-1.148-0.705-1.722c-0.315-0.574-0.72-1.131-1.214-1.67c-0.495-0.539-1.092-1.018-1.792-1.438
+                 c-0.7-0.419-1.514-0.754-2.444-1.003c-0.93-0.249-1.994-0.374-3.193-0.374c-0.84,0-1.669,0.097-2.489,0.292
+                 c-0.82,0.195-1.602,0.494-2.346,0.898c-0.745,0.404-1.432,0.919-2.061,1.542c-0.63,0.624-1.177,1.363-1.642,2.216
+                 c-0.465,0.853-0.827,1.829-1.087,2.927c-0.26,1.098-0.39,2.326-0.39,3.684c0,1.757,0.225,3.347,0.675,4.769
+                 c0.45,1.422,1.107,2.638,1.971,3.646c0.864,1.008,1.929,1.785,3.193,2.329c1.264,0.544,2.716,0.816,4.355,0.816
+                 c1.169,0,2.271-0.165,3.306-0.494c1.034-0.329,1.966-0.829,2.796-1.497c0.83-0.669,1.534-1.51,2.114-2.523
+                 c0.579-1.013,0.994-2.209,1.244-3.586h-4.573c-0.1,0.35-0.24,0.759-0.42,1.228c-0.18,0.469-0.452,0.919-0.817,1.348
+                 c-0.365,0.429-0.852,0.794-1.462,1.093c-0.61,0.299-1.399,0.449-2.369,0.449c-0.84,0-1.592-0.172-2.256-0.517
+                 c-0.665-0.344-1.232-0.841-1.702-1.49c-0.47-0.649-0.83-1.442-1.08-2.381c-0.25-0.938-0.375-2.001-0.375-3.189
+                 c0-1.098,0.095-2.046,0.285-2.845C12.549,18.455,12.797,17.774,13.102,17.21z M28.911,20.227h4.947v12.878h4.228V20.227h4.947
+                 v-3.444H28.911V20.227z M49.975,26.846h-0.06V16.783h-4.243v16.322h4.633l5.772-9.838h0.075v9.838h4.228V16.783h-4.453
+                 L49.975,26.846z M78.805,16.783h-5.067l-2.743,4.762l-2.669-4.762h-5.217l5.307,8.011l-5.547,8.31h5.187l2.939-4.911l2.714,4.911
+                 h5.307l-5.562-8.31L78.805,16.783z M85.806,26.846h-0.06V16.783h-4.243v16.322h4.633l5.772-9.838h0.075v9.838h4.228V16.783h-4.453
+                 L85.806,26.846z M127.911,19.658c-0.34-0.619-0.735-1.14-1.184-1.565c-0.45-0.424-0.927-0.769-1.432-1.033
+                 c-0.505-0.264-1.022-0.457-1.552-0.576c-0.53-0.12-1.044-0.18-1.544-0.18c-0.6,0-1.137,0.055-1.612,0.165
+                 c-0.475,0.11-0.907,0.28-1.297,0.509c-0.39,0.23-0.745,0.522-1.065,0.876c-0.32,0.354-0.625,0.776-0.914,1.265h-0.06v-2.336
+                 h-4.048v22.641h4.243v-8.341h0.06c0.27,0.489,0.582,0.896,0.937,1.22c0.355,0.325,0.732,0.582,1.132,0.771
+                 c0.4,0.19,0.81,0.324,1.229,0.404c0.42,0.08,0.834,0.12,1.244,0.12c1.179,0,2.206-0.22,3.081-0.659
+                 c0.875-0.439,1.599-1.053,2.174-1.842c0.575-0.789,1.004-1.732,1.289-2.83c0.285-1.098,0.427-2.306,0.427-3.624
+                 c0-1.058-0.1-1.999-0.3-2.823C128.52,20.998,128.25,20.277,127.911,19.658z M124.545,25.955c-0.035,0.365-0.103,0.734-0.202,1.108
+                 c-0.1,0.374-0.237,0.736-0.412,1.086c-0.175,0.35-0.397,0.659-0.667,0.928c-0.27,0.27-0.595,0.487-0.974,0.651
+                 c-0.38,0.165-0.83,0.247-1.349,0.247c-0.52,0-0.97-0.082-1.349-0.247c-0.38-0.165-0.705-0.382-0.974-0.651
+                 c-0.27-0.269-0.492-0.579-0.667-0.928c-0.175-0.349-0.312-0.711-0.412-1.086c-0.1-0.374-0.167-0.743-0.202-1.108
+                 c-0.035-0.364-0.052-0.701-0.052-1.011c0-0.569,0.065-1.143,0.195-1.722c0.13-0.579,0.337-1.098,0.622-1.557
+                 c0.285-0.459,0.66-0.833,1.124-1.123c0.465-0.289,1.037-0.434,1.717-0.434c0.669,0,1.239,0.145,1.709,0.434
+                 c0.47,0.29,0.847,0.664,1.132,1.123c0.285,0.459,0.492,0.978,0.622,1.557c0.13,0.579,0.195,1.153,0.195,1.722
+                 C124.597,25.253,124.58,25.59,124.545,25.955z M142.153,16.783l-3.343,12.024h-0.06l-3.508-12.024h-4.753l5.982,17.175
+                 c0,0.17-0.04,0.379-0.12,0.629c-0.08,0.25-0.212,0.492-0.397,0.726c-0.185,0.234-0.432,0.437-0.742,0.606
+                 c-0.31,0.17-0.69,0.255-1.139,0.255c-0.17,0-0.38-0.01-0.63-0.03c-0.25-0.02-0.46-0.04-0.63-0.06v3.429
+                 c0.34,0.03,0.632,0.052,0.877,0.067c0.245,0.015,0.507,0.022,0.787,0.022c0.7,0,1.304-0.037,1.814-0.112
+                 c0.51-0.075,0.954-0.207,1.334-0.397c0.38-0.19,0.712-0.447,0.997-0.771c0.285-0.324,0.555-0.739,0.81-1.243
+                 c0.255-0.504,0.512-1.103,0.772-1.797c0.26-0.694,0.55-1.51,0.87-2.448l5.622-16.052H142.153z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://vk.com/milov63"
+              class="footer-container__socials-item vk"
+              target="_blank"
+            >
+              <svg
+                fill="currentColor"
+                height="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="m23.4493 5.94799c.1668-.54645 0-.94799-.794-.94799h-2.6256c-.6676 0-.9754.34687-1.1423.72936 0 0-1.3353 3.19671-3.2268 5.27314-.6119.6011-.8901.7924-1.2239.7924-.1669 0-.4173-.1913-.4173-.7377v-5.10921c0-.65574-.1849-.94799-.7413-.94799h-4.12597c-.41719 0-.6681.30434-.6681.59278 0 .62163.94571.76499 1.04319 2.51363v3.79779c0 .8326-.15309.9836-.4869.9836-.89009 0-3.05525-3.21098-4.33939-6.88519-.25166-.71414-.50407-1.00261-1.1751-1.00261h-2.625612c-.750174 0-.900218.34687-.900218.72936 0 .68308.890141 4.07103 4.14464 8.55184 2.16965 3.06 5.22654 4.7188 8.00816 4.7188 1.669 0 1.8755-.3684 1.8755-1.003v-2.3128c0-.7368.1581-.8839.6866-.8839.3894 0 1.057.1913 2.6147 1.6667 1.7803 1.7486 2.0738 2.533 3.0751 2.533h2.6257c.7501 0 1.1252-.3684.9088-1.0955-.2368-.7246-1.0867-1.7759-2.2145-3.0222-.612-.7104-1.53-1.4754-1.8082-1.858-.3894-.4917-.2781-.7103 0-1.1474 0 0 3.199-4.42623 3.5328-5.92891z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://ok.ru/profile/569309544653"
+              class="footer-container__socials-item ok"
+              target="_blank"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m14.505 17.44a11.599 11.599 0 0 0 3.6-1.49 1.816 1.816 0 0 0 -1.935-3.073 7.866 7.866 0 0 1 -8.34 0 1.814 1.814 0 0 0 -2.5.565c0 .002 0 .004-.002.005a1.812 1.812 0 0 0 .567 2.5l.002.002c1.105.695 2.322 1.2 3.596 1.488l-3.465 3.465a1.796 1.796 0 0 0 -.028 2.537l.03.03c.344.354.81.53 1.274.53.465 0 .93-.176 1.275-.53l3.421-3.404 3.404 3.406a1.815 1.815 0 0 0 2.566-2.565zm-2.505-5.052a6.202 6.202 0 0 0 6.195-6.193c0-3.415-2.78-6.195-6.195-6.195s-6.195 2.78-6.195 6.197a6.2 6.2 0 0 0 6.195 6.192zm0-8.757a2.566 2.566 0 0 1 0 5.13 2.569 2.569 0 0 1 -2.565-2.564 2.57 2.57 0 0 1 2.565-2.567z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/playlist?list=PL4ntkUs2HHAEzKUFqb5QonbCknv9OY5ba"
+              class="footer-container__socials-item youtube"
+              target="_blank"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 512 512"
+                width="512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m508.64 148.79c0-45-33.1-81.2-74-81.2-55.4-2.59-111.9-3.59-169.64-3.59h-18c-57.6 0-114.2 1-169.6 3.6-40.8 0-73.9 36.4-73.9 81.4-2.5 35.59-3.56 71.19-3.5 106.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5 58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5 2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zm-301.64 205.1v-196.5l145 98.2z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <div class="footer-container__info">
+          <p class="footer-container__info-text">
+            Все права защищены автором 2023г.
+          </p>
+          <p class="footer-container__info-text phone">
+            <a href="tel:+79210261963"
+              >Телефон для связи c Сергеем: +79210261963</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- <script src="./scripts/player.js" type="module"></script> -->
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
